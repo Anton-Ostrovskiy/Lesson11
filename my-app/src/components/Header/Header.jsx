@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container wrapper">
-        <a className="header__logo">
+        <a href="#" className="header__logo">
           <img className="header__logo-title" src={logo} alt="logo" />
         </a>
         <input className="menu__btn" type="checkbox" id="menu__btn" />

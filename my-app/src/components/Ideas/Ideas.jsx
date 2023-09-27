@@ -4,7 +4,7 @@ import pear from '../../images/pear.png'
 const Ideas = () => {
   return (
     <section className="ideas">
-      <div className="container">
+      <div className="container-ideas">
         <div className="ideas__wrapper">
           <div className="ideas__content">
             <h1 className="ideas__title">Make your ideas come true</h1>
@@ -15,7 +15,7 @@ const Ideas = () => {
             <button className="ideas__btn">Book a consultation</button>
           </div>
           <div className="ideas__img">
-            <img src={pear} alt="pear" />
+            <img className="img" src={pear} alt="pear" />
           </div>
         </div>
       </div>

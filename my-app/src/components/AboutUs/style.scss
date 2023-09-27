@@ -1,0 +1,103 @@
+.container__about {
+  position: relative;
+  max-width: 1239px;
+  padding: 0px;
+  margin: 0 auto;
+}
+.about {
+  position: relative;
+  padding: 62px 0 132px ;
+  background-color: #0c1417;
+  z-index: -2;
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+  &::before {
+    top: 0;
+    background: linear-gradient(360deg, #0c1417 39.22%, #000 100%);
+  }
+  &::after {
+    bottom: 0;
+    background: linear-gradient(180deg, #0c1417 39.22%, #000 100%);
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  &__header-content {
+    max-width: 655px;
+    width: 100%;
+    text-align: center;
+  }
+  &__title {
+    font-family: Rubik, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 27px;
+  }
+  &__header-text {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    color: #fff;
+    margin-bottom: 48px;
+  }
+  &__bottom-content {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    column-gap: 128px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__wrap-img {
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+  &__description {
+  }
+  &__bottom-text {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    color: #fff;
+    margin-bottom: 53px;
+  }
+  &__text {
+    font-family: Rubik, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 145%;
+    color: #fff;
+    margin-bottom: 7px;
+  }
+  &__btn {
+    max-width: 185px;
+    width: 100%;
+    padding: 10px 13px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: Space Grotesk, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    background: transparent;
+  }
+}
