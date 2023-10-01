@@ -6,9 +6,10 @@ const Provide = () => {
       <div className="container__provide">
         <div className="provide__wrap">
           <h2 className="provide__title">What we provide</h2>
+          <div className="provide__content">
             <div className="provide__list">
               <article className="provide__item">
-                <h3 className="provide__item-title">Web Platform</h3>
+                <h3 className="provide__item-title">Web <br/>Platform</h3>
                 <ol className="provide__item-list" style={{ color: "black", listStylePosition: "inside" }}>
                   <li className="provide__item-list-item">Node.JS/Angular.JS</li>
                   <li className="provide__item-list-item">React.JS/Vue.JS</li>
@@ -44,6 +45,7 @@ const Provide = () => {
                 </ol>
               </article>
             </div>
+          </div>
           </div>
         </div>
     </section>
