@@ -1,7 +1,7 @@
 .container__about {
   position: relative;
-  max-width: 1239px;
-  padding: 0px;
+  max-width: 1274px;
+  padding: 0px 15px;
   margin: 0 auto;
 }
 .about {
@@ -29,22 +29,19 @@
     background: linear-gradient(180deg, #0c1417 39.22%, #000 100%);
   }
   &__wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
   &__header-content {
     max-width: 655px;
     width: 100%;
     text-align: center;
+    margin: 0 auto 45px;
   }
   &__title {
     font-family: 'Rubik', sans-serif;
     font-size: 35px;
     font-weight: 500;
     color: #fff;
-    margin-bottom: 27px;
+    margin-bottom: 26px;
   }
   &__header-text {
     font-family: 'Rubik', sans-serif;
@@ -52,21 +49,24 @@
     font-weight: 400;
     line-height: 145%;
     color: #fff;
-    margin-bottom: 48px;
   }
   &__bottom-content {
     display: grid;
-    grid-template-columns: 35% 1fr;
+    grid-template-columns: 35.3% 1fr;
     column-gap: 128px;
     align-items: center;
     justify-content: space-between;
   }
   &__wrap-img {
+    border: 2px solid #D1FFF5;
+    border-radius: 20px;
+    overflow: hidden;
+    aspect-ratio: 1/0.74;
   }
   &__img {
     width: 100%;
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
   }
   &__description {
@@ -78,6 +78,9 @@
     line-height: 145%;
     color: #fff;
     margin-bottom: 53px;
+    &:not(:first-child){
+      margin-bottom: 37px;
+    }
   }
   &__text {
     font-family: 'Rubik', sans-serif;

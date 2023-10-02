@@ -1,4 +1,4 @@
-import laptop from '../../images/laptop.png'
+import laptop from "../../images/laptop.jpg";
 import "./style.scss";
 
 const AboutUs = () => {
@@ -6,7 +6,7 @@ const AboutUs = () => {
     <section className="about">
       <div className="container__about">
         <div className="about__wrapper">
-          <div className="about__header-content" >
+          <div className="about__header-content">
             <h3 className="about__title">About Us</h3>
             <p className="about__header-text">
               Our focus is on providing a crypto wallet that enables users to
@@ -25,13 +25,16 @@ const AboutUs = () => {
                 web app development. With an impressive track record of
                 successfully delivering over 300 projects, we have garnered
                 expertise and experience that sets us apart in the industry.
-                <br />
-                <br /> Our unwavering commitment revolves around providing our
-                esteemed partners with nothing less than service par excellence.
-                Building upon our past achievements, we are steadfast in our
-                dedication to repeating these remarkable feats time and again.
               </p>
-              <p className="about__text">Unlock Your Potential: Book a Consultation Now!</p>
+              <p className="about__bottom-text">
+                Our unwavering commitment revolves around providing our esteemed
+                partners with nothing less than service par excellence. Building
+                upon our past achievements, we are steadfast in our dedication
+                to repeating these remarkable feats time and again.
+              </p>
+              <p className="about__text">
+                Unlock Your Potential: Book a Consultation Now!
+              </p>
               <button className="about__btn">Consultation</button>
             </div>
           </div>
