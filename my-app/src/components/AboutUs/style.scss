@@ -34,7 +34,7 @@
     max-width: 655px;
     width: 100%;
     text-align: center;
-    margin: 0 auto 45px;
+    margin: 0 auto 47px;
   }
   &__title {
     font-family: 'Rubik', sans-serif;
@@ -52,7 +52,7 @@
   }
   &__bottom-content {
     display: grid;
-    grid-template-columns: 35.3% 1fr;
+    grid-template-columns: 35.2% 1fr;
     column-gap: 128px;
     align-items: center;
     justify-content: space-between;
@@ -77,10 +77,11 @@
     font-weight: 400;
     line-height: 145%;
     color: #fff;
-    margin-bottom: 53px;
-    &:not(:first-child){
-      margin-bottom: 37px;
-    }
+    margin-bottom: 0;
+  }
+  p.about__bottom-text + &__bottom-text{
+    margin-top: 23px;
+    margin-bottom: 0;
   }
   &__text {
     font-family: 'Rubik', sans-serif;
@@ -88,6 +89,7 @@
     font-weight: 300;
     line-height: 145%;
     color: #fff;
+    margin-top: 51px;
     margin-bottom: 7px;
   }
   &__btn {
