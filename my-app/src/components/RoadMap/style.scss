@@ -1,0 +1,133 @@
+.container-roadmap {
+    position: relative;
+    max-width: 1240px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.roadmap{
+    background: black;
+    &__wrap{
+
+    }
+
+    &__title{
+        color: white;
+        margin-bottom: 50px;
+    }
+    
+    &__content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 110px;
+        
+    }
+    
+    .line {
+        position: absolute;
+        top: -92px;
+        left: 0;
+        transform: translate();
+    }
+    
+    .circle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 117px;
+        height: 120px;
+        border: 13px solid green;
+        border-radius: 50%;
+        background: black;
+    }
+    
+    .roadmap {
+        position: relative;
+        width: 80%;
+        max-width: 600px;
+    }
+    
+    .pulse-1 {
+        animation: pulse-1 2s infinite alternate;
+    }
+    .pulse-2 {
+        animation: pulse-2 2s infinite alternate;
+    }
+    .pulse-3 {
+        animation: pulse-3 2s infinite alternate;
+    }
+    .pulse-4 {
+        animation: pulse-4 2s infinite alternate;
+    }
+    .pulse-5 {
+        animation: pulse-5 2s infinite alternate;
+    }
+    
+    .line .pulse-1 {
+        fill: #0EB27F;
+        
+        
+    }
+    .line .pulse-2 {
+        fill: #0A7F5A;
+    
+    }
+    .line .pulse-3 {
+        fill: #14FFB5;
+        
+    }
+    .line .pulse-4 {
+        fill: #61FFCD;
+        
+    }
+    .line .pulse-5 {
+        fill: #49BF9A;
+        
+    }
+    
+    @keyframes pulse-1 {
+        0% {
+            filter: drop-shadow(0px 0px 10px #0EB27F);
+        }
+        100% {
+            filter: drop-shadow(0px 0px 40px #0EB27F);
+        }
+    }
+    @keyframes pulse-2 {
+        0% {
+            filter: drop-shadow(0px 0px 10px #0A7F5A);
+        }
+        100% {
+            filter: drop-shadow(0px 0px 40px #0A7F5A);
+        }
+    }
+    @keyframes pulse-3 {
+        0% {
+            filter: drop-shadow(0px 0px 10px #14FFB5);
+        }
+        100% {
+            filter: drop-shadow(0px 0px 40px #14FFB5);
+        }
+    }
+    @keyframes pulse-4 {
+        0% {
+            filter: drop-shadow(0px 0px 10px #61FFCD);
+        }
+        100% {
+            filter: drop-shadow(0px 0px 40px #61FFCD);
+        }
+    }
+    @keyframes pulse-5 {
+        0% {
+            filter: drop-shadow(0px 0px 10px #49BF9A);
+        }
+        100% {
+            filter: drop-shadow(0px 0px 40px #49BF9A);
+        }
+    }
+}
+
+
+
