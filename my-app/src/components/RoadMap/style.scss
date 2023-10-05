@@ -49,15 +49,15 @@
     font-family: "Rubik", sans-serif;
     font-size: 31px;
     font-weight: 500;
-    margin-bottom: 128px;
+    margin-bottom: 127px;
   }
 
   &__content {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 110px;
+    justify-content: space-around;
+    padding: 0 53px 0 65px;
   }
 
   .line {
@@ -75,14 +75,28 @@
   }
 
   &__circle {
+    padding: 32px 24px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 117px;
     height: 120px;
-    border: 13px solid green;
+    
     border-radius: 50%;
-    background: black;
+    background: #0B1416;
+  }
+  .border__green{
+    border: 13px solid var(--Green);
+  }
+  .border__mint{
+    border: 13px solid var(--Mint);
+  }
+  .border__darkgreen{
+    border: 13px solid var(--Dark-Green);
+  }
+  .border__lightgreen{
+    border: 13px solid var(--Light-Green);
+  }
+  .border__test{
+    border: 13px solid var(--Test);
   }
 
   &__text {
@@ -145,7 +159,7 @@
       filter: drop-shadow(0px 0px 10px #0eb27f);
     }
     100% {
-      filter: drop-shadow(0px 0px 40px #0eb27f);
+      filter: drop-shadow(0px 0px 20px #0eb27f);
     }
   }
   @keyframes pulse-2 {
@@ -153,7 +167,7 @@
       filter: drop-shadow(0px 0px 10px #0a7f5a);
     }
     100% {
-      filter: drop-shadow(0px 0px 40px #0a7f5a);
+      filter: drop-shadow(0px 0px 20px #0a7f5a);
     }
   }
   @keyframes pulse-3 {
@@ -161,7 +175,7 @@
       filter: drop-shadow(0px 0px 10px #14ffb5);
     }
     100% {
-      filter: drop-shadow(0px 0px 40px #14ffb5);
+      filter: drop-shadow(0px 0px 20px #14ffb5);
     }
   }
   @keyframes pulse-4 {
@@ -169,7 +183,7 @@
       filter: drop-shadow(0px 0px 10px #61ffcd);
     }
     100% {
-      filter: drop-shadow(0px 0px 40px #61ffcd);
+      filter: drop-shadow(0px 0px 20px #61ffcd);
     }
   }
   @keyframes pulse-5 {
@@ -177,7 +191,7 @@
       filter: drop-shadow(0px 0px 10px #49bf9a);
     }
     100% {
-      filter: drop-shadow(0px 0px 40px #49bf9a);
+      filter: drop-shadow(0px 0px 20px #49bf9a);
     }
   }
 }

@@ -7,7 +7,7 @@ const RoadMap = () => {
           <h2 className="roadmap__title">Our Software Development Cycle</h2>
           <div className="roadmap__content">
             <div className="roadmap__cycle">
-              <div className="roadmap__circle">
+              <div className="roadmap__circle border__green">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="34"
@@ -24,7 +24,7 @@ const RoadMap = () => {
               <p className="roadmap__text color__research">Research</p>
             </div>
             <div className="roadmap__cycle">
-              <div className="roadmap__circle">
+              <div className="roadmap__circle border__mint">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="38"
@@ -41,7 +41,7 @@ const RoadMap = () => {
               <p className="roadmap__text color__prototyping">Prototyping</p>
             </div>
             <div className="roadmap__cycle">
-              <div className="roadmap__circle">
+              <div className="roadmap__circle border__darkgreen">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="39"
@@ -58,7 +58,7 @@ const RoadMap = () => {
               <p className="roadmap__text color__design">Design</p>
             </div>
             <div className="roadmap__cycle">
-              <div className="roadmap__circle">
+              <div className="roadmap__circle border__lightgreen">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="39"
@@ -75,7 +75,7 @@ const RoadMap = () => {
               <p className="roadmap__text color__development">Development</p>
             </div>
             <div className="roadmap__cycle">
-              <div className="roadmap__circle">
+              <div className="roadmap__circle border__test">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="39"
