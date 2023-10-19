@@ -26,7 +26,7 @@ const Projects = () => {
               </div>
             </div>
             <div className="projects__studio">
-              <div className="projects__img">
+              <div className="projects__img rewers">
                 <img src={games} alt="games" />
               </div>
               <div className="projects__description">
