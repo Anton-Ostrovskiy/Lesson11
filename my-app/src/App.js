@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs/AboutUs";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Ideas from "./components/Ideas/Ideas";
 import Projects from "./components/Projects/Projects";
@@ -15,6 +16,7 @@ function App() {
       <Provide/>
       <RoadMap/>
       <Projects/>
+      <Footer/>
     </div>
   );
 }

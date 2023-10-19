@@ -1,0 +1,169 @@
+.container-footer {
+  position: relative;
+  max-width: 1230px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+.footer {
+  position: relative;
+  padding: 32px 0 49px;
+  background-color: #0b1416;
+  z-index: 1;
+  &::before {
+    content: "";
+    display: block;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+  }
+  &::before {
+    top: 0;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0) 84.03%, #000 100%);
+  }
+  &__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  &__top {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 379px 224px 205px 187px;
+    border-bottom: 1px solid #afafaf;
+    padding-bottom: 40px;
+    margin-bottom: 14px;
+  }
+  &__content {
+    width: 100%;
+    max-width: 379px;
+  }
+  &__socials {
+    margin-bottom: 26px;
+  }
+  &__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 11px;
+    margin-bottom: 16px;
+    &-title {
+      font-family: "Rubik", sans-serif;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #fff;
+    }
+  }
+  &__top-text {
+    color: #afafaf;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145%;
+    margin-bottom: 34px;
+  }
+  &__socials-icons {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+  }
+  &__socials-link {
+  }
+  &__location {
+    display: flex;
+    flex-direction: column;
+    &-heading {
+      color: #fff;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 12px;
+    }
+  }
+
+  &__wrap-address {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px 37px;
+  }
+  &__address {
+    width: 100%;
+    max-width: 165px;
+    &-heading {
+      color: #fff;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 28px;
+      margin-bottom: 8px;
+    }
+    &-list {
+      list-style-type: none;
+    }
+    &-item {
+      color: #afafaf;
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 145%;
+    }
+  }
+
+  &__development {
+  }
+  &__fintech {
+    width: 100%;
+    max-width: 224px;
+    margin-bottom: 23px;
+  }
+  &__heading {
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 10px;
+  }
+  &__list {
+    list-style-type: none;
+  }
+  &__item {
+    color: #afafaf;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  &__company {
+    width: 100%;
+    max-width: 224px;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    &-wrap {
+    }
+    &-text {
+      font-family: "Rubik", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 145%;
+      color: #fff;
+    }
+    &-rules {
+      display: flex;
+      gap: 24px;
+      padding-right: 14px;
+    }
+    &-privacy {
+      font-family: "Rubik",sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 145%;
+      color: #afafaf;
+      text-decoration: none;
+    }
+  }
+}
