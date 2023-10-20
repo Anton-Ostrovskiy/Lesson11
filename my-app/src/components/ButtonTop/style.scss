@@ -1,0 +1,19 @@
+.upbtn {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 120px;
+  right: 60px;
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  border: 1px solid #fff;
+  background: linear-gradient(180deg, #0b1416 99.99%, #00fcc6 100%);
+  cursor: pointer;
+  transition: .5s;
+}
+
+.active {
+    z-index: 3;
+}
