@@ -32,8 +32,8 @@
     justify-content: space-between;
     grid-template-columns: 379px 224px 205px 187px;
     border-bottom: 1px solid #afafaf;
-    padding-bottom: 40px;
-    margin-bottom: 14px;
+    padding-bottom: 37px;
+    margin-bottom: 17px;
   }
   &__content {
     width: 100%;
@@ -65,14 +65,15 @@
   }
   &__socials-icons {
     display: flex;
-    column-gap: 16px;
+    column-gap: 14px;
     align-items: center;
   }
   &__socials-link {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    border-radius: 50%;
   }
   &__location {
-    display: flex;
-    flex-direction: column;
     &-heading {
       color: #fff;
       font-family: "Rubik", sans-serif;
@@ -116,7 +117,7 @@
   &__fintech {
     width: 100%;
     max-width: 224px;
-    margin-bottom: 23px;
+    margin-bottom: 33px;
   }
   &__heading {
     color: #fff;
@@ -135,6 +136,10 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
+    margin-bottom: 1px;
+    &:last-child{
+      margin-bottom: 0;
+    }
   }
   &__company {
     width: 100%;

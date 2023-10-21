@@ -1,7 +1,6 @@
 import "./style.scss";
-import games from '../../images/games.png'
-import phone from '../../images/Iphone.png'
-
+import games from "../../images/games.png";
+import phone from "../../images/Iphone.png";
 
 const Projects = () => {
   return (
@@ -12,7 +11,7 @@ const Projects = () => {
             Take a look at some of the apps we’ve developed since 2011
           </h1>
           <div className="projects__content">
-            <div className="projects__studio">
+            <article className="projects__studio">
               <div className="projects__img">
                 <img src={games} alt="games" />
               </div>
@@ -22,10 +21,10 @@ const Projects = () => {
                   Rapidly growing mobile GayDev studio, driven by our passion
                   for creating exceptional gaming experiences.
                 </p>
-                <button className="projects__description-btn" >View Case</button>
+                <button className="projects__description-btn">View Case</button>
               </div>
-            </div>
-            <div className="projects__studio">
+            </article>
+            <article className="projects__studio">
               <div className="projects__img rewers">
                 <img src={games} alt="games" />
               </div>
@@ -37,9 +36,9 @@ const Projects = () => {
                 </p>
                 <button className="projects__description-btn">View Case</button>
               </div>
-            </div>
-            <div className="projects__wallet">
-              <div >
+            </article>
+            <article className="projects__wallet">
+              <div className="projects__wallet-img ">
                 <img src={phone} alt="" />
               </div>
               <div className="projects__description">
@@ -50,12 +49,14 @@ const Projects = () => {
                 </p>
                 <button className="projects__description-btn">View Case</button>
               </div>
-            </div>
+            </article>
           </div>
-          <div className="projects__content-bottom">
-            <h3 className="projects__title-bottom">Developing custom software for your business idea</h3>
-            <button className="projects__btn-bottom">Explore more works</button>
-          </div>
+        </div>
+        <div className="projects__content-bottom">
+          <h3 className="projects__title-bottom">
+            Developing custom software for your business idea
+          </h3>
+          <button className="projects__btn-bottom">Explore more works</button>
         </div>
       </div>
     </section>
