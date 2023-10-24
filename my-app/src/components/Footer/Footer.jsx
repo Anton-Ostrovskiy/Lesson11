@@ -1,15 +1,18 @@
 import "./style.scss";
-import logo from "../../images/footer-logo.png";
+import logo from "../../images/footer_logo.png";
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container-footer">
         <div className="footer__wrap">
           <div className="footer__top">
-            <div className="footer__content">
+            <div className="footer__left">
               <div className="footer__socials">
                 <div className="footer__logo">
+                  <div className="footer__logo-wrap">
+
                   <img src={logo} alt="footer-logo" />
+                  </div>
                   <h3 className="footer__logo-title">Pearwood</h3>
                 </div>
                 <p className="footer__top-text">
@@ -119,7 +122,9 @@ const Footer = () => {
                       <li className="footer__address-item">
                         44 Tehama St San Francisco 94105
                       </li>
-                      <li className="footer__address-item">+1 (415) 470-2865</li>
+                      <li className="footer__address-item">
+                        +1 (415) 470-2865
+                      </li>
                     </ul>
                   </div>
                   <div className="footer__address">
@@ -150,62 +155,74 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="footer__development">
-              <div className="footer__fintech">
-                <h4 className="footer__heading">Fintech</h4>
+            <div className="footer__right">
+              <div className="footer__development">
+                <div className="footer__fintech">
+                  <h4 className="footer__heading">Fintech</h4>
+                  <ul className="footer__list">
+                    <li className="footer__item">
+                      Fintech software development
+                    </li>
+                    <li className="footer__item">
+                      Trading platform development
+                    </li>
+                    <li className="footer__item">
+                      Lending software development
+                    </li>
+                    <li className="footer__item">E-wallet app development</li>
+                    <li className="footer__item">
+                      Banking software development
+                    </li>
+                    <li className="footer__item">Crowdfunding platform</li>
+                    <li className="footer__item">
+                      Billing software development
+                    </li>
+                    <li className="footer__item">
+                      Payment software gateway development
+                    </li>
+                  </ul>
+                </div>
+                <div className="footer__company">
+                  <h4 className="footer__heading">Company</h4>
+                  <ul className="footer__list">
+                    <li className="footer__item">
+                      Yellow’s Delivery Quality Standards
+                    </li>
+                    <li className="footer__item">Works</li>
+                    <li className="footer__item">Process</li>
+                    <li className="footer__item">Insights</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="footer__development">
+                <h4 className="footer__heading">Services</h4>
                 <ul className="footer__list">
-                  <li className="footer__item">Fintech software development</li>
-                  <li className="footer__item">Trading platform development</li>
-                  <li className="footer__item">Lending software development</li>
-                  <li className="footer__item">E-wallet app development</li>
-                  <li className="footer__item">Banking software development</li>
-                  <li className="footer__item">Crowdfunding platform</li>
-                  <li className="footer__item">Billing software development</li>
-                  <li className="footer__item">
-                    Payment software gateway development
-                  </li>
+                  <li className="footer__item">Web development</li>
+                  <li className="footer__item">Mobile development</li>
+                  <li className="footer__item">iOS app development</li>
+                  <li className="footer__item">Android app development</li>
+                  <li className="footer__item">Cross-platform development</li>
+                  <li className="footer__item">UX/UI design</li>
+                  <li className="footer__item">MVP development</li>
+                  <li className="footer__item">DevOps</li>
+                  <li className="footer__item">Quality assurance</li>
+                  <li className="footer__item">Penetration testing</li>
+                  <li className="footer__item">Cloud development</li>
+                  <li className="footer__item">PWA development</li>
+                  <li className="footer__item">Software prototyping</li>
                 </ul>
               </div>
-              <div className="footer__company">
-                <h4 className="footer__heading">Company</h4>
+              <div className="footer__development">
+                <h4 className="footer__heading">Expertise</h4>
                 <ul className="footer__list">
-                  <li className="footer__item">
-                    Yellow’s Delivery Quality Standards
-                  </li>
-                  <li className="footer__item">Works</li>
-                  <li className="footer__item">Process</li>
-                  <li className="footer__item">Insights</li>
+                  <li className="footer__item">Discovery phase</li>
+                  <li className="footer__item">Chat development</li>
+                  <li className="footer__item">ERP development</li>
+                  <li className="footer__item">Machine learning</li>
+                  <li className="footer__item">AI software development</li>
+                  <li className="footer__item">Data science development</li>
                 </ul>
               </div>
-            </div>
-            <div className="footer__development">
-              <h4 className="footer__heading">Services</h4>
-              <ul className="footer__list">
-                <li className="footer__item">Web development</li>
-                <li className="footer__item">Mobile development</li>
-                <li className="footer__item">iOS app development</li>
-                <li className="footer__item">Android app development</li>
-                <li className="footer__item">Cross-platform development</li>
-                <li className="footer__item">UX/UI design</li>
-                <li className="footer__item">MVP development</li>
-                <li className="footer__item">DevOps</li>
-                <li className="footer__item">Quality assurance</li>
-                <li className="footer__item">Penetration testing</li>
-                <li className="footer__item">Cloud development</li>
-                <li className="footer__item">PWA development</li>
-                <li className="footer__item">Software prototyping</li>
-              </ul>
-            </div>
-            <div className="footer__development">
-              <h4 className="footer__heading">Expertise</h4>
-              <ul className="footer__list">
-                <li className="footer__item">Discovery phase</li>
-                <li className="footer__item">Chat development</li>
-                <li className="footer__item">ERP development</li>
-                <li className="footer__item">Machine learning</li>
-                <li className="footer__item">AI software development</li>
-                <li className="footer__item">Data science development</li>
-              </ul>
             </div>
           </div>
           <div className="footer__bottom">
