@@ -2,7 +2,6 @@ import "./style.scss";
 const MobileMenu = ({active, setActive}) => {
   return (
     <nav className={active ? "menu active" : "menu"}>
-      <div className="menu__content">
         <ul className="list">
           <li className="item">
             <a className="link" href="#!">
@@ -40,7 +39,6 @@ const MobileMenu = ({active, setActive}) => {
             </a>
           </li>
         </ul>
-      </div>
     </nav>
   );
 };

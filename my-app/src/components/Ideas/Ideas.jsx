@@ -9,7 +9,7 @@ const Ideas = () => {
           <div className="ideas__content">
             <h1 className="ideas__title">Make your ideas come true</h1>
             <p className="ideas__text">
-              We use unique solutions to turn client’s needs<br/> in excellent
+              We use unique solutions to turn client’s needs in excellent
               products
             </p>
             <button className="ideas__btn">Book a consultation</button>

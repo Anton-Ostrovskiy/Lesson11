@@ -10,7 +10,7 @@
   top: 0;
   left: 0;
   width: 100vw;
-  padding: 19.5px 0px;
+  padding: 15.5px 0px;
   background-color: #263f3c;
   z-index: 2;
   &__logo {
@@ -22,6 +22,18 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  &__logo {
+    text-decoration: none;
+    &-title {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      @media (max-width: 767px) {
+        font-size: 24px;
+      }
+    }
   }
   .burger {
     display: none;
@@ -116,10 +128,10 @@
       @media (max-width: 767px) {
         width: 30px;
         height: 30px;
-        background-image: url(../../images/ContactUs.png);
+        background-image: url(../../images/ContactUs.svg);
         background-color: transparent;
       }
-      p {
+      span {
         font-family: "Outfit", sans-serif;
         font-size: 17px;
         font-weight: 600;
@@ -139,4 +151,8 @@
 }
 .reverse {
   flex-direction: row-reverse;
+}
+.title-mobile {
+  font-size: 16px;
+  font-weight: 700;
 }

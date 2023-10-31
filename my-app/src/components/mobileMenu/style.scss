@@ -14,12 +14,8 @@
   z-index: 1;
   transform: translateY(-100%);
   transition: all 0.5s;
-
-  &__content {
-    margin-top: 3rem;
-    margin-bottom: 34px;
-  }
   .list {
+    text-align: center;
     list-style: none;
     .item {
       font-family: "Outfit", sans-serif;
