@@ -10,6 +10,9 @@
   padding: 58px 0 79px;
   background-color: #0c1417;
   z-index: 1;
+  @media (max-width: 767px) {
+    padding: 45px 0 40px;
+  }
   &::after,
   &::before {
     content: "";
@@ -38,7 +41,11 @@
     font-weight: 700;
     color: #fff;
     margin-bottom: 20px;
-   
+    @media (max-width: 767px) {
+      font-size: 24px;
+      font-weight: 500;
+      margin-bottom: 16px;
+    }
   }
   &__content {
     padding: 96px 73px;
@@ -46,6 +53,9 @@
     border: 1px solid #d1fff5;
     background: #0b1416;
     box-shadow: 4px 4px 16px 0px #496454;
+    @media (max-width: 767px) {
+      display: none;
+    }
   }
   &__list {
     display: grid;

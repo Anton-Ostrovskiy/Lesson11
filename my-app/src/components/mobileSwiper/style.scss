@@ -1,0 +1,39 @@
+
+.swiper {
+    padding:20px;
+    // width: 100%;
+    &-slide {
+        padding: 20px 13px 27px 14px;
+
+        // width: 100%;
+        // min-width: 207px;
+        height: 230px;
+
+        border: 1px solid #d1fff5;
+        border-radius: 20px;
+        background: #0B1416;
+        box-shadow: 4px 4px 16px 0px rgba(73, 100, 84, 0.18);
+      &-title {
+        font-family: "Rubik", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 11px;
+      }
+      &-list {
+        padding-left: 4px;
+        &-item {
+          font-family: "Rubik", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 28px;
+          color: #fff;
+          margin-bottom: 11px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
