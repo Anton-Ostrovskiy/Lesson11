@@ -3,6 +3,9 @@
   max-width: 1270px;
   padding: 0px 15px;
   margin: 0 auto;
+  @media (max-width: 767px) {
+    padding: 0px 20px;
+  }
 }
 
 .projects {
@@ -13,6 +16,10 @@
   background-position: center;
   background-image: url("../../images/bg_projects.png");
   z-index: 0;
+  @media (max-width: 767px) {
+    padding: 114px 0 92px;
+    background: linear-gradient(180deg, #0c1417 0%, rgba(11, 20, 22, 0.5) 100%);
+  }
   &::after,
   &::before {
     content: "";
@@ -27,13 +34,22 @@
   &::before {
     top: 0;
     background: linear-gradient(360deg, rgba(0, 0, 0, 0.5) 84.03%, #000 100%);
+    @media (max-width: 767px) {
+      background: linear-gradient(360deg, #0c1417 39.22%, #000 100%);
+    }
   }
   &::after {
     bottom: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 84.03%, #000 100%);
+    @media (max-width: 767px) {
+      background: linear-gradient(180deg, #0c1417 39.22%, #000 100%);
+    }
   }
   &__wrap {
     margin-bottom: 61px;
+    @media (max-width: 767px) {
+      margin-bottom: 20px;
+    }
   }
   &__title {
     font-family: "Rubik", sans-serif;
@@ -44,11 +60,20 @@
     width: 100%;
     max-width: 742px;
     margin: 0 auto 58px;
+    @media (max-width: 767px) {
+      max-width: 335px;
+      font-size: 24px;
+      font-weight: 500;
+      margin: 0 auto 54px;
+    }
   }
   &__content {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    @media (max-width: 767px) {
+      gap: 37px;
+    }
   }
 
   &__studio {
@@ -57,18 +82,38 @@
     column-gap: 32px;
     align-items: center;
     justify-content: center;
+    @media (max-width: 767px) {
+      grid-template-columns: none;
+      grid-template-rows: 50% 1fr;
+      justify-content: center;
+      row-gap: 15px;
+    }
     &:nth-child(2) {
       grid-template-columns: 1fr 50%;
+      @media (max-width: 767px) {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 50%;
+        justify-content: center;
+        row-gap: 14px;
+        text-align: end;
+      }
     }
   }
   .rewers {
     order: 1;
+    @media (max-width: 767px) {
+      order: 0;
+    }
   }
   &__img {
     border-radius: 20px;
     border: 2px solid #d1fff5;
     overflow: hidden;
     aspect-ratio: 1/0.73;
+    @media (max-width: 767px) {
+      border-radius: 7px;
+      aspect-ratio: 1/0.81;
+    }
     img {
       width: 100%;
       height: 100%;
@@ -83,6 +128,10 @@
       font-weight: 500;
       color: #fff;
       margin-bottom: 16px;
+      @media (max-width: 767px) {
+        font-size: 20px;
+        margin-bottom: 14px;
+      }
     }
     &-text {
       font-family: "Rubik", sans-serif;
@@ -91,6 +140,12 @@
       line-height: 145%;
       color: #fff;
       margin-bottom: 32px;
+      @media (max-width: 767px) {
+        font-size: 15px;
+        line-height: 130.5%;
+        letter-spacing: 0.225px;
+        margin-bottom: 25px;
+      }
     }
     &-btn {
       font-family: "Montserrat", sans-serif;
@@ -106,6 +161,13 @@
       width: 100%;
       max-width: 123px;
       padding: 10px 10px;
+      @media (max-width: 767px) {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        padding: 7px 20px;
+        max-width: 147px;
+      }
     }
   }
   &__wallet {
@@ -114,6 +176,12 @@
     column-gap: 34px;
     align-items: center;
     justify-content: center;
+    @media (max-width: 767px) {
+      grid-template-columns: none;
+      grid-template-rows: 50% 1fr;
+      justify-content: center;
+      row-gap: 14px;
+    }
     &-img {
       overflow: hidden;
       aspect-ratio: 22/20.8;
@@ -136,6 +204,11 @@
     width: 100%;
     max-width: 484px;
     margin: 0 auto 32px;
+    @media (max-width: 767px) {
+      text-align: center;
+      font-size: 24px;
+      margin: 0 auto 17px;
+    }
   }
   &__btn-bottom {
     font-family: "Montserrat", sans-serif;
@@ -151,5 +224,11 @@
     padding: 10px 10px;
     color: #fff;
     cursor: pointer;
+    @media (max-width: 767px) {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 28px;
+      padding: 7px 7px;
+    }
   }
 }

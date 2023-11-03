@@ -11,9 +11,15 @@
   border: 1px solid #fff;
   background: linear-gradient(180deg, #0b1416 99.99%, #00fcc6 100%);
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
+  @media (max-width: 767px) {
+    width: 43px;
+    height: 43px;
+    bottom: 14.5%;
+    right: 5%;
+  }
 }
 
 .active {
-    z-index: 3;
+  z-index: 3;
 }

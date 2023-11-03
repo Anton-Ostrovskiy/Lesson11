@@ -1,6 +1,11 @@
 
 .swiper {
+  display:none;
+  @media (max-width: 767px) {
+    display: block;
     padding:20px;
+  }
+    
     // width: 100%;
     &-slide {
         padding: 20px 13px 27px 14px;
