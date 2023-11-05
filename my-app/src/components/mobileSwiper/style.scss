@@ -5,15 +5,10 @@
     display: block;
     padding:20px;
   }
-    
-    // width: 100%;
     &-slide {
         padding: 20px 13px 27px 14px;
-
-        // width: 100%;
-        // min-width: 207px;
-        height: 230px;
-
+        height: max-content;
+        width: max-content;
         border: 1px solid #d1fff5;
         border-radius: 20px;
         background: #0B1416;

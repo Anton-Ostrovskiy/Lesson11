@@ -13,7 +13,7 @@
   background-color: #0c1417;
   z-index: 1;
   @media (max-width: 767px) {
-    padding: 23px 0 21px;
+    padding: 22px 0 21px;
   }
   &::after,
   &::before {
@@ -29,6 +29,9 @@
   &::before {
     top: 0;
     background: linear-gradient(360deg, #0c1417 39.22%, #000 100%);
+    @media (max-width: 767px) {
+      top: -1px;
+    }
   }
   &::after {
     bottom: 0;
@@ -42,8 +45,8 @@
     text-align: center;
     margin: 0 auto 47px;
     @media (max-width: 767px) {
-      max-width: 335px;
-      margin: 0 auto 37px;
+      max-width: 100%;
+      margin: 0 auto 42px;
     }
   }
   &__title {
@@ -56,7 +59,7 @@
       text-align: center;
       font-size: 24px;
       font-weight: 500;
-      margin-bottom: 17px;
+      margin-bottom: 19px;
     }
   }
   &__header-text {
@@ -68,8 +71,8 @@
     @media (max-width: 767px) {
       text-align: center;
       font-size: 15px;
-      font-weight: 400;
       letter-spacing: 0.225px;
+      line-height: 18px;
     }
   }
   &__bottom-content {
@@ -80,10 +83,9 @@
     justify-content: space-between;
     @media (max-width: 767px) {
       grid-template-columns: none;
-      grid-template-rows: 35.2% 1fr;
       justify-content: center;
       align-items: center;
-      row-gap: 34px;
+      row-gap: 29px;
     }
   }
   &__wrap-img {
@@ -152,7 +154,7 @@
     background: transparent;
     cursor: pointer;
     @media (max-width: 767px) {
-      padding: 8px 35px;
+      padding: 7px 35px;
       font-size: 15px;
       max-width: 163px;
       width: 100%;

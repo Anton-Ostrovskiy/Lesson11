@@ -3,13 +3,16 @@
   max-width: 1235px;
   padding: 0 15px;
   margin: 0 auto;
+  @media (max-width: 767px) {
+    padding: 0 20px;
+  }
 }
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   padding: 15.5px 0px;
   background-color: #263f3c;
   z-index: 2;
@@ -22,9 +25,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
   &__logo {
     text-decoration: none;
+    @media (max-width: 767px) {
+      position: relative;
+      left: 6px;
+      top: 1px;
+    }
     &-title {
       color: #fff;
       font-family: "Montserrat", sans-serif;
@@ -94,6 +103,9 @@
       display: flex;
       list-style-type: none;
       column-gap: 36px;
+      @media (max-width: 768px) {
+        column-gap: 15px;
+      }
     }
     &__item {
     }
@@ -125,6 +137,9 @@
       border-radius: 20px;
       text-align: center;
       text-decoration: none;
+      @media (max-width: 768px) {
+        max-width: 104px;
+      }
       @media (max-width: 767px) {
         width: 30px;
         height: 30px;

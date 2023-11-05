@@ -4,7 +4,7 @@ import "./style.scss";
 
 const mobileSwiper = () => {
   return (
-      <Swiper spaceBetween={12} slidesPerView={1.55} >
+      <Swiper spaceBetween={12} slidesPerView={'auto'} >
         <SwiperSlide>
           <h3 className="swiper-slide-title">Web Platform</h3>
           <ol

@@ -3,6 +3,9 @@
   max-width: 1240px;
   padding: 0px;
   margin: 0 auto;
+  @media (max-width: 1024px) {
+    padding: 0px 15px;
+  }
 }
 
 .provide {
@@ -11,7 +14,7 @@
   background-color: #0c1417;
   z-index: 1;
   @media (max-width: 767px) {
-    padding: 45px 0 40px;
+    padding: 60px 0 20px;
   }
   &::after,
   &::before {
@@ -53,6 +56,9 @@
     border: 1px solid #d1fff5;
     background: #0b1416;
     box-shadow: 4px 4px 16px 0px #496454;
+    @media (max-width: 1024px) {
+      padding: 96px 0;
+    }
     @media (max-width: 767px) {
       display: none;
     }
@@ -61,12 +67,30 @@
     display: grid;
     grid-template-columns: 23% 20.5% 22% 20.4%;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     column-gap: 52px;
+    @media (max-width: 1024px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 18px;
+      padding-left: 35px;
+    }
+    @media (max-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-content: flex-start;
+      align-items: center;
+      row-gap: 20px;
+    }
   }
 
   &__item {
     position: relative;
+    @media (max-width: 1024px) {
+      width: 100%;
+      max-width: 230px;
+    }
 
     &::before {
       content: "";
@@ -77,9 +101,12 @@
       right: 0;
       left: 0;
       width: 4px;
-      height: 240px;
+      height: 100%;
       position: absolute;
       transform: translate(-25px, 1px);
+      @media (max-width: 1024px) {
+        transform: translate(-15px, 1px);
+      }
     }
     &-title {
       font-family: "Rubik", sans-serif;
@@ -87,8 +114,13 @@
       font-weight: 500;
       color: #fff;
       margin-bottom: 10px;
+      @media (max-width: 1024px) {
+        font-size: 32px;
+      }
     }
     &-list {
+      @media (max-width: 1024px) {
+      }
       padding-left: 6px;
       &-item {
         font-family: "Rubik", sans-serif;
@@ -97,6 +129,9 @@
         line-height: 28px;
         color: #fff;
         margin-bottom: 12px;
+        @media (max-width: 1024px) {
+          font-size: 18px;
+        }
         &:last-child {
           margin-bottom: 0;
         }

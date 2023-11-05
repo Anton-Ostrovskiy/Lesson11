@@ -7,9 +7,9 @@ const Projects = () => {
     <section className="projects">
       <div className="container-projects">
         <div className="projects__wrap">
-          <h1 className="projects__title">
-            Take a look at some of the apps we’ve developed since 2011
-          </h1>
+          <h2 className="projects__title">
+            Take a look at some of the <span>apps we’ve</span> developed since 2011
+          </h2>
           <div className="projects__content">
             <article className="projects__studio">
               <div className="projects__img">
