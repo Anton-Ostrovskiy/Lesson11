@@ -15,7 +15,7 @@
   width: 100%;
   padding: 15.5px 0px;
   background-color: #263f3c;
-  z-index: 2;
+  z-index: 3;
   &__logo {
     display: flex;
     &-title {
@@ -101,10 +101,11 @@
     }
     &__list {
       display: flex;
+      align-items: center;
       list-style-type: none;
-      column-gap: 36px;
+      column-gap: 6px;
       @media (max-width: 768px) {
-        column-gap: 15px;
+        column-gap: 0;
       }
     }
     &__item {
@@ -114,19 +115,16 @@
       font-family: "Outfit", sans-serif;
       font-size: 16px;
       font-weight: 400;
-      align-items: center;
       text-align: center;
       color: #ffffff;
       cursor: pointer;
       transition: all 0.3s linear;
+      border-radius: 20px;
       text-decoration: none;
+      padding: 5px 21px;
       &:hover {
-        background: #fff;
-        border-radius: 20px;
-        color: #263f3c;
-        font-weight: 700;
-        font-size: 17px;
-        padding: 5px 21px;
+        background: #fff;       
+        color: #263f3c;        
       }
     }
     &__btn {
