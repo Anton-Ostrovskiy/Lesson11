@@ -3,7 +3,7 @@ import MobileSwiper from "../mobileSwiper/mobileSwiper";
 
 const Provide = () => {
   return (
-    <section className="provide">
+    <section id="provide" className="provide">
       <div className="container__provide">
         <div className="provide__wrap">
           <h2 className="provide__title">What we provide</h2>

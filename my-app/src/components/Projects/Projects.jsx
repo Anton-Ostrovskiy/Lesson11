@@ -4,7 +4,7 @@ import phone from "../../images/Iphone.png";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <div className="container-projects">
         <div className="projects__wrap">
           <h2 className="projects__title">
@@ -24,7 +24,7 @@ const Projects = () => {
                 <button className="projects__description-btn">View Case</button>
               </div>
             </article>
-            <article className="projects__studio">
+            {/* <article className="projects__studio">
               <div className="projects__img rewers">
                 <img src={games} alt="games" />
               </div>
@@ -36,7 +36,7 @@ const Projects = () => {
                 </p>
                 <button className="projects__description-btn">View Case</button>
               </div>
-            </article>
+            </article> */}
             <article className="projects__wallet">
               <div className="projects__wallet-img ">
                 <img src={phone} alt="" />

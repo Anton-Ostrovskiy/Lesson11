@@ -1,7 +1,7 @@
 import "./style.scss";
 const RoadMap = () => {
   return (
-    <section className="roadmap">
+    <section id="roadmap" className="roadmap">
       <div className="container-roadmap">
         <div className="roadmap__wrap">
           <h2 className="roadmap__title">Our Software Development Cycle</h2>

@@ -81,6 +81,12 @@
     column-gap: 128px;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 1024px) {
+      column-gap:80px
+    }
+    @media (max-width: 768px) {
+      column-gap:30px
+    }
     @media (max-width: 767px) {
       grid-template-columns: none;
       justify-content: center;

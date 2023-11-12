@@ -2,7 +2,7 @@ import "./style.scss";
 import logo from "../../images/footer_logo.png";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="footer" className="footer">
       <div className="container-footer">
         <div className="footer__wrap">
           <div className="footer__top">

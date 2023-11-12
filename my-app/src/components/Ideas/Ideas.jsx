@@ -3,7 +3,7 @@ import pear from '../../images/pear.png'
 
 const Ideas = () => {
   return (
-    <section className="ideas">
+    <section  id="ideas" className="ideas">
       <div className="container-ideas">
         <div className="ideas__wrapper">
           <div className="ideas__content">

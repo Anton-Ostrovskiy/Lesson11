@@ -93,15 +93,15 @@
       justify-content: center;
       row-gap: 15px;
     }
-    &:nth-child(2) {
-      grid-template-columns: 1fr 50%;
-      @media (max-width: 767px) {
-        grid-template-columns: none;
-        justify-content: center;
-        row-gap: 14px;
-        text-align: end;
-      }
-    }
+    // &:nth-child(2) {
+    //   grid-template-columns: 1fr 50%;
+    //   @media (max-width: 767px) {
+    //     grid-template-columns: none;
+    //     justify-content: center;
+    //     row-gap: 14px;
+    //     text-align: end;
+    //   }
+    // }
   }
   .rewers {
     order: 1;
