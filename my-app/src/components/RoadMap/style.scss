@@ -78,7 +78,7 @@
       justify-content: center;
       padding: 61px 0 61px 8px;
       row-gap: 74px;
-      max-width: 335px;
+      max-width: 275px;
       margin: 0 auto;
     }
   }
@@ -93,7 +93,7 @@
       transform: translate(-50%, -50%);
     }
     @media (max-width: 767px) {
-      transform: rotate(90deg) translate(27.65%, 185%);
+      transform: rotate(90deg) translate(33.65%, 151%);
       top: 0;
       left: 0;
       width: 455%;
@@ -132,7 +132,7 @@
     @media (max-width: 767px) {
       justify-content: center;
       align-items: center;
-      width: 117px;
+      width: 120px;
       height: 120px;
     }
     svg {
@@ -233,75 +233,41 @@
   }
 
   .pulse-1 {
-    animation: pulse-1 2s infinite alternate;
+    animation: pulse-1 5s infinite alternate;
   }
   .pulse-2 {
-    animation: pulse-2 2s infinite alternate;
+    animation: pulse-2 5s infinite alternate;
   }
-  .pulse-3 {
-    animation: pulse-3 2s infinite alternate;
-  }
-  .pulse-4 {
-    animation: pulse-4 2s infinite alternate;
-  }
-  .pulse-5 {
-    animation: pulse-5 2s infinite alternate;
-  }
+
 
   .line .pulse-1 {
     fill: #0eb27f;
   }
   .line .pulse-2 {
-    fill: #0a7f5a;
-  }
-  .line .pulse-3 {
     fill: #14ffb5;
   }
-  .line .pulse-4 {
-    fill: #61ffcd;
-  }
-  .line .pulse-5 {
-    fill: #49bf9a;
-  }
+
 
   @keyframes pulse-1 {
     0% {
-      filter: drop-shadow(0px 0px 10px #0eb27f);
+      filter: drop-shadow(0px 0px 5px #0eb27f);
+    }
+    50% {
+      filter: drop-shadow(0px 0px 20px #0eb27f);
     }
     100% {
-      filter: drop-shadow(0px 0px 20px #0eb27f);
+      filter: drop-shadow(0px 0px 5px #0eb27f);
     }
   }
   @keyframes pulse-2 {
     0% {
-      filter: drop-shadow(0px 0px 10px #0a7f5a);
+      filter: drop-shadow(0px 0px 5px #14ffb5);
     }
-    100% {
-      filter: drop-shadow(0px 0px 20px #0a7f5a);
-    }
-  }
-  @keyframes pulse-3 {
-    0% {
-      filter: drop-shadow(0px 0px 10px #14ffb5);
-    }
-    100% {
+    50% {
       filter: drop-shadow(0px 0px 20px #14ffb5);
     }
-  }
-  @keyframes pulse-4 {
-    0% {
-      filter: drop-shadow(0px 0px 10px #61ffcd);
-    }
     100% {
-      filter: drop-shadow(0px 0px 20px #61ffcd);
-    }
-  }
-  @keyframes pulse-5 {
-    0% {
-      filter: drop-shadow(0px 0px 10px #49bf9a);
-    }
-    100% {
-      filter: drop-shadow(0px 0px 20px #49bf9a);
+      filter: drop-shadow(0px 0px 5px #14ffb5);
     }
   }
 }

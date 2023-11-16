@@ -74,11 +74,12 @@
     }
   }
   &__content {
-    display: flex;
+    display: grid;
     flex-direction: column;
     gap: 60px;
     @media (max-width: 767px) {
-      gap: 32px;
+      gap:0;
+      row-gap: 32px;
     }
   }
 
